@@ -2,27 +2,12 @@ Demo: https://mochi-land.netlify.app/
 
 <img width="1302" alt="Screenshot 2022-11-22 at 10 32 12 AM" src="https://user-images.githubusercontent.com/100975883/203393773-57f0f069-3431-4034-87e2-fc4fe9db9af8.png">
 
-# Install external libraries
-npm i react-router-dom@6 react-bootstrap react-router-bootstrap
-
 # Admin login:
 Username: admin   
 Password: admin
 
 # Checkout:
 Credit card: 4242424242424242  
-
-# Picture credit
-1. Strawberry Yogurt Cream Mochi: https://www.youtube.com/watch?v=VNV0dktD3wY
-2. Bunny Snowskin Mooncakes: https://www.youtube.com/watch?v=3W2cGSZOwu8
-3. Daifuku Mochi: https://top.his-usa.com/destination-japan/blog/wagashi-art_of_five_senses.html
-4. Sakura Mochi: https://top.his-usa.com/destination-japan/blog/wagashi-art_of_five_senses.html
-5. Dango: https://hokuohkurashi.com/note/96023
-6. Raindrop cake: https://top.his-usa.com/destination-japan/blog/wagashi-art_of_five_senses.html
-7. Strawberry Cheesecake Mochi: https://sugaryums.co.uk/strawberry-cheesecake-mochi/
-8. Sakura Yokan: instagram.com/p/CNhoDIFp8q8/
-9. Sakura macarons: https://www.instagram.com/p/CbBxjqbLVdC/
-10. Lemon Mochi: https://www.sprinklebakes.com/2016/03/lemon-mochi-chicks.html
 
 # Getting Started with Create React App
 
@@ -94,3 +79,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Picture credit
+1. Strawberry Yogurt Cream Mochi: https://www.youtube.com/watch?v=VNV0dktD3wY
+2. Bunny Snowskin Mooncakes: https://www.youtube.com/watch?v=3W2cGSZOwu8
+3. Daifuku Mochi: https://top.his-usa.com/destination-japan/blog/wagashi-art_of_five_senses.html
+4. Sakura Mochi: https://top.his-usa.com/destination-japan/blog/wagashi-art_of_five_senses.html
+5. Dango: https://hokuohkurashi.com/note/96023
+6. Raindrop cake: https://top.his-usa.com/destination-japan/blog/wagashi-art_of_five_senses.html
+7. Strawberry Cheesecake Mochi: https://sugaryums.co.uk/strawberry-cheesecake-mochi/
+8. Sakura Yokan: instagram.com/p/CNhoDIFp8q8/
+9. Sakura macarons: https://www.instagram.com/p/CbBxjqbLVdC/
+10. Lemon Mochi: https://www.sprinklebakes.com/2016/03/lemon-mochi-chicks.html
