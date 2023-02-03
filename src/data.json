@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "sku": "JP-521",
+    "img": "/assets/Daifuku mochi.jpeg",
+    "title": "Daifuku Mochi",
+    "description": "Classic Japanese red bean ice cream enhanced with sweetened anko and chopped red beans.",
+    "price": 8.00,
+    "quantity": 3,
+    "quantityInCart": 0,
+    "category": "Mochi"
+  },
+  {
+    "id": "2",
+    "sku": "JP-522",
+    "img": "/assets/Sakura mochi.jpeg",
+    "title": "Sakura Mochi",
+    "description": "An earthy sweetness from the red bean paste, balanced by the bright saltiness of the pickled sakura leaf.",
+    "price": 6.00,
+    "quantity": 5,
+    "quantityInCart": 0,
+    "category": "Mochi"
+  },
+  {
+    "id": "3",
+    "sku": "JP-523",
+    "img": "/assets/Dango.jpeg",
+    "title": "Dango",
+    "description": "Pink for cherry blossom, white the snow which has just melted to be spring and green for freshness of the greens in the spring season.",
+    "price": 3.00,
+    "quantity": 4,
+    "quantityInCart": 0,
+    "category": "Dango"
+  },
+  {
+    "id": "4",
+    "sku": "JP-524",
+    "img": "/assets/raindrop cake.jpeg",
+    "title": "Mizu Shingen Mochi",
+    "description": "A jelly-like dessert made only with mineral water and agar powder.",
+    "price": 6.00,
+    "quantity": 6,
+    "quantityInCart": 0,
+    "category": "Mochi"
+  },
+  {
+    "id": "5",
+    "sku": "JP-525",
+    "img": "/assets/Strawberry Cheesecake Mochi.jpeg",
+    "title": "Strawberry Cheesecake Mochi",
+    "description": "Soft and chewy. Stuffed with cream cheese, strawberry jam and topped with crushed biscuits.",
+    "price": 7.00,
+    "quantity": 2,
+    "quantityInCart": 0,
+    "category": "Mochi"
+  },
+  {
+    "id": "6",
+    "sku": "JP-526",
+    "img": "/assets/Sakura yokan.jpeg",
+    "title": "Sakura Yokan",
+    "description": "The perfect blend of a traditional snack that has been perfectly combined with the delicate sakura flavor.",
+    "price": 8.00,
+    "quantity": 0,
+    "quantityInCart": 0,
+    "category": "Yokan"
+  },
+  {
+    "id": "7",
+    "sku": "JP-527",
+    "img": "/assets/Bunny Snowskin Mooncakes.jpeg",
+    "title": "Bunny Snowskin Mooncakes",
+    "description": "The cute jade rabbits of the mooncake festival are also here to join in the fun.",
+    "price": 5.00,
+    "quantity": 5,
+    "quantityInCart": 0,
+    "category": "Mooncake"
+  },
+  {
+    "id": "8",
+    "sku": "JP-528",
+    "img": "/assets/Strawberry Yogurt Cream Mochi.jpeg",
+    "title": "Strawberry Yogurt Cream Mochi",
+    "description": "Strawberry puree brings out the vibrant sweetness of the berries.",
+    "price": 7.00,
+    "quantity": 7,
+    "quantityInCart": 0,
+    "category": "mochi"
+  },
+  {
+    "id": "9",
+    "sku": "JP-529",
+    "img": "/assets/Sakura macarons.png",
+    "title": "Cherry Blossom Macarons",
+    "description": "Crunchy, soft and gooey almond shells with a tart, creamy, fluffly raspberry and jasmine chantilly cream.",
+    "price": 3.00,
+    "quantity": 8,
+    "quantityInCart": 0,
+    "category": "Macaron"
+  },
+  {
+    "id": "10",
+    "sku": "JP-530",
+    "img": "/assets/Lemon Mochi.jpeg",
+    "title": "Lemon Mochi",
+    "description": "Upon opening the wrapper to this yellow mochi, the scent of lemon comes wafting out thanks to the setouchi lemon peels kneaded into the soft, chewy rice cake.",
+    "price": 5.00,
+    "quantity": 4,
+    "quantityInCart": 0,
+    "category": "Mochi"
+  }
+]

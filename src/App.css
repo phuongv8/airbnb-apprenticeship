@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;600;700&display=swap');
+
+html,
+body,
+#root,
+#app {
+  margin-bottom: 0px;
+  font-family: 'Oxygen', sans-serif;
+  background-color: #FDF4F4;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  color: #141c3a;
+}
+
+main {
+  min-height: 80vh;
+  background-color: #FDF4F4;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 45vw;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .card-img-top {
+    height: 23vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card-img-top {
+    height: 15vw;
+  }
+}
+
+.disabledCursor { 
+  cursor: default;
+  color: #fff;
+  text-decoration: none;
+}
+
+.notDisabled,
+.notDisabled:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.error {
+  color: #ba3939;
+  background: #ffe0e0;
+  border: 1px solid #a33a3a;
+  padding: 8px;
+  text-align: center;
+}
+
+span {
+  font-size: 12px;
+}
+
+.login {
+  text-align: center !important;
+  letter-spacing: .15em;
+}
+
+.login-error {
+  color: #ba3939;
+  text-align: center;
+}
+
+.checkout-error {
+  color: #ba3939;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.login-form {
+  border: 1px solid #ada5a5 !important;
+}
+
+.my-2 {
+  padding-left: 26px !important;
+}
