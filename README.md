@@ -42,9 +42,9 @@ Note: This project was built and tested using Node.js v19.0.1 and npm v8.19.2. I
 
 # To Do
 
-[] When click on edit an item, admin should not have to re enter the product id.  
-[x] Admin should be able to stay signed in after logging in.  
-[] Log out button only appears when admin has logged in.
+- [] When click on edit an item, admin should not have to re enter the product id.
+- [x] Admin should be able to stay signed in after logging in.
+- [] Log out button only appears when admin has logged in.
 
 # Picture credit
 
