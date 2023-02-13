@@ -11,7 +11,8 @@ const Login = props => {
 
   const handleClick = e => {
     if (username === adminUsername && password === adminPassword) {
-      props.setAdmin('Admin');
+      // props.setAdmin('Admin');
+      props.setIsLoggedIn(true);
     } else {
       e.preventDefault();
       setError('Wrong username or password');
