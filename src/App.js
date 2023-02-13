@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import './App.css';
@@ -32,9 +32,20 @@ const App = () => {
     }
   };
 
+  useEffect(() => {
+    const storedCredentials = JSON.parse(localStorage.getItem('credentials'));
+    if (storedCredentials) {
+      setIsLoggedIn(true);
+    }
+  }, []);
+
   return (
     <BrowserRouter>
-      <Header itemCount={itemCount} />
+      <Header
+        itemCount={itemCount}
+        isLoggedIn={isLoggedIn}
+        setIsLoggedIn={setIsLoggedIn}
+      />
       <main className="py-3">
         <Container>
           <Routes>
@@ -75,7 +86,13 @@ const App = () => {
             <Route path="/confirmation" element={<Confirmation />} />
             <Route
               path="/login"
-              element={<Login setIsLoggedIn={setIsLoggedIn} />}
+              element={
+                isLoggedIn ? (
+                  <AdminHome products={products} setProducts={setProducts} />
+                ) : (
+                  <Login setIsLoggedIn={setIsLoggedIn} />
+                )
+              }
             />
             <Route
               path="/admin"

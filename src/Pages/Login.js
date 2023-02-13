@@ -11,7 +11,10 @@ const Login = props => {
 
   const handleClick = e => {
     if (username === adminUsername && password === adminPassword) {
-      // props.setAdmin('Admin');
+      localStorage.setItem(
+        'credentials',
+        JSON.stringify({ username, password })
+      );
       props.setIsLoggedIn(true);
     } else {
       e.preventDefault();
