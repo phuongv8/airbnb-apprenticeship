@@ -10,11 +10,11 @@ import {
 } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Cart = ({ cart, itemCount, total, setCart, setItemCount, setTotal }) => {
+const Cart = props => {
   const deleteButton = product => {
-    setCart(cart.filter(item => item.id !== product.id));
-    setTotal(total - product.price * product.quantityInCart);
-    setItemCount(itemCount - product.quantityInCart);
+    props.setCart(props.cart.filter(item => item.id !== product.id));
+    props.setTotal(props.total - product.price * product.quantityInCart);
+    props.setItemCount(props.itemCount - product.quantityInCart);
     product.quantityInCart = 0;
   };
 
@@ -25,14 +25,14 @@ const Cart = ({ cart, itemCount, total, setCart, setItemCount, setTotal }) => {
       </Row>
       <Row>
         <Col md={8}>
-          {cart.length === 0 && (
+          {props.cart.length === 0 && (
             <p>
               Your cart is empty.<br></br>
               <Link to="/">Go Back</Link>
             </p>
           )}
           <ListGroup variant="flush">
-            {cart.map(item => (
+            {props.cart.map(item => (
               <ListGroup.Item key={item.id}>
                 <Row>
                   <Col md={2}>
@@ -52,8 +52,8 @@ const Cart = ({ cart, itemCount, total, setCart, setItemCount, setTotal }) => {
                         let qty = e.target.value;
                         let changeInQty = qty - item.quantityInCart;
                         item.quantityInCart = qty;
-                        setTotal(total + item.price * changeInQty);
-                        setItemCount(itemCount + changeInQty);
+                        props.setTotal(props.total + item.price * changeInQty);
+                        props.setItemCount(props.itemCount + changeInQty);
                       }}
                     >
                       {[...Array(item.quantity).keys()].map(x => (
@@ -82,15 +82,15 @@ const Cart = ({ cart, itemCount, total, setCart, setItemCount, setTotal }) => {
           <Card>
             <ListGroup variant="flush">
               <ListGroup.Item>
-                <h4>Subtotal {itemCount} items</h4>${total}
+                <h4>Subtotal {props.itemCount} items</h4>${props.total}
               </ListGroup.Item>
               <ListGroup.Item className="d-grid">
                 <Button
                   type="button"
                   className="btn-block"
-                  disabled={cart.length === 0}
+                  disabled={props.cart.length === 0}
                 >
-                  {cart.length === 0 ? (
+                  {props.cart.length === 0 ? (
                     <Link
                       to="/checkout"
                       className="disabledCursor"
