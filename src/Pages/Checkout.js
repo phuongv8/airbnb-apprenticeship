@@ -48,15 +48,7 @@ const useValidation = (
   ]);
 };
 
-const Checkout = ({
-  total,
-  cart,
-  setCart,
-  setTotal,
-  setItemCount,
-  products,
-  setProducts,
-}) => {
+const Checkout = props => {
   const [email, setEmail] = useState('');
   const [card, setCard] = useState('');
   const [name, setName] = useState('');
@@ -81,7 +73,7 @@ const Checkout = ({
   const handleClick = e => {
     e.preventDefault();
 
-    cart.forEach(item => {
+    props.cart.forEach(item => {
       item.quantity -= item.quantityInCart;
       item.quantityInCart = 0;
     });
@@ -92,9 +84,9 @@ const Checkout = ({
       emptyName === '' &&
       emptyAddress === ''
     ) {
-      setCart([]);
-      setItemCount(0);
-      setTotal(0);
+      props.setCart([]);
+      props.setItemCount(0);
+      props.setTotal(0);
       navigate('/confirmation');
     }
   };
@@ -154,7 +146,7 @@ const Checkout = ({
             <ListGroup variant="flush">
               <ListGroup.Item>
                 <h4>Order Summary</h4>
-                <strong>Subtotal</strong>: ${total.toFixed(2)}
+                <strong>Subtotal</strong>: ${props.total.toFixed(2)}
                 <br></br>
                 <strong>Shipping</strong>: Free
               </ListGroup.Item>
