@@ -40,6 +40,11 @@ Note: This project was built and tested using Node.js v19.0.1 and npm v8.19.2. I
    npm start
    ```
 
+# To Do
+
+[] When click on edit an item, admin should not have to re enter the product id.
+[] Admin should be able to stay signed in after logging in.
+
 # Picture credit
 
 1. Strawberry Yogurt Cream Mochi: https://www.youtube.com/watch?v=VNV0dktD3wY
