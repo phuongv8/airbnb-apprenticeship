@@ -23,11 +23,15 @@ const Header = props => {
                   <i className="fa-solid fa-user"></i>
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/login" onClick={handleLogout}>
-                <Nav.Link>
-                  <i className="fa-solid fa-arrow-right-from-bracket"></i>
-                </Nav.Link>
-              </LinkContainer>
+              {props.isLoggedIn ? (
+                <LinkContainer to="/login" onClick={handleLogout}>
+                  <Nav.Link>
+                    <i className="fa-solid fa-arrow-right-from-bracket"></i>
+                  </Nav.Link>
+                </LinkContainer>
+              ) : (
+                <></>
+              )}
               <LinkContainer to="/cart">
                 <Nav.Link>
                   <i className="fa-solid fa-cart-shopping"></i> Cart (
