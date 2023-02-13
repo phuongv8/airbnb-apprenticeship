@@ -1,13 +1,19 @@
-Demo: https://mochi-land.netlify.app/  
+# Description
+
+Welcome to Mochi Land! This project was built using React, and is designed to provide an easy and convenient way for customers to purchase delicious Japanese desserts from the comfort of their own home.
+
+Demo: https://mochi-land.netlify.app/
 
 <img width="1302" alt="Screenshot 2022-11-22 at 10 32 12 AM" src="https://user-images.githubusercontent.com/100975883/203393773-57f0f069-3431-4034-87e2-fc4fe9db9af8.png">
 
-# Admin login:
-Username: admin   
+## Admin login:
+
+Username: admin  
 Password: admin
 
-# Checkout:
-Credit card: 4242424242424242  
+## Checkout:
+
+Credit card: 4242424242424242
 
 # Getting Started with Create React App
 
@@ -16,6 +22,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install the dependencies of the project.\
 
 ### `npm start`
 
@@ -81,6 +91,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Picture credit
+
 1. Strawberry Yogurt Cream Mochi: https://www.youtube.com/watch?v=VNV0dktD3wY
 2. Bunny Snowskin Mooncakes: https://www.youtube.com/watch?v=3W2cGSZOwu8
 3. Daifuku Mochi: https://top.his-usa.com/destination-japan/blog/wagashi-art_of_five_senses.html
