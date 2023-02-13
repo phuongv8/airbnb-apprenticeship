@@ -3,6 +3,11 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Header = props => {
+  const handleLogout = () => {
+    localStorage.removeItem('credentials');
+    props.setIsLoggedIn(false);
+  };
+
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
@@ -13,9 +18,14 @@ const Header = props => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <LinkContainer to="/login">
+              <LinkContainer to={props.isLoggedIn ? '/admin' : '/login'}>
                 <Nav.Link>
-                  <i className="fa-solid fa-user"></i> {props.admin}
+                  <i className="fa-solid fa-user"></i>
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/login" onClick={handleLogout}>
+                <Nav.Link>
+                  <i className="fa-solid fa-arrow-right-from-bracket"></i>
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/cart">
