@@ -1,6 +1,6 @@
 # Description
 
-Welcome to Mochi Land! This project was built using React, and is designed to provide an easy and convenient way for customers to purchase delicious Japanese desserts from the comfort of their own home.
+Welcome to Mochi Land! This project was built using React, and is inspired by the beauty of cherry blossoms and softness of mochi (Japanese rice cake). It was created with the goal of providing an easy and convenient way for customers to purchase delicious Japanese desserts from the comfort of their own home.
 
 Demo: https://mochi-land.netlify.app/
 
