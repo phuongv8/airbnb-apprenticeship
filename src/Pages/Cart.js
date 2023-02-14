@@ -56,9 +56,12 @@ const Cart = props => {
                         props.setItemCount(props.itemCount + changeInQty);
                       }}
                     >
-                      {[...Array(item.quantity).keys()].map(x => (
-                        <option key={x + 1} value={x + 1}>
-                          {x + 1}
+                      {Array.from(
+                        { length: item.quantity },
+                        (_, i) => i + 1
+                      ).map(x => (
+                        <option key={x} value={x}>
+                          {x}
                         </option>
                       ))}
                     </Form.Select>
