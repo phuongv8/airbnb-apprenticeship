@@ -4,11 +4,12 @@ Welcome to Mochi Land! This project was built using React, and is inspired by th
 
 Demo: https://mochi-land.netlify.app/
 
-<img width="1302" alt="Screenshot 2022-11-22 at 10 32 12 AM" src="https://user-images.githubusercontent.com/100975883/203393773-57f0f069-3431-4034-87e2-fc4fe9db9af8.png">
+<img width="1302" alt="mochi land demo" src="https://user-images.githubusercontent.com/100975883/203393773-57f0f069-3431-4034-87e2-fc4fe9db9af8.png">
 
 ## Admin login:
 
 Username: admin  
+
 Password: admin
 
 ## Checkout:
@@ -25,11 +26,11 @@ Note: This project was built and tested using Node.js v19.0.1 and npm v8.19.2. I
 
 1. Clone the repository to your local machine
    ```sh
-   git clone https://github.com/your_username_/airbnb-apprenticeship.git
+   git clone https://github.com/your_username_/mochi-land.git
    ```
 2. Change into the project directory
    ```sh
-   cd airbnb-apprenticeship
+   cd mochi-land
    ```
 3. Install all required dependencies
    ```sh
@@ -40,7 +41,7 @@ Note: This project was built and tested using Node.js v19.0.1 and npm v8.19.2. I
    npm start
    ```
 
-# To Do
+# Future Work
 
 - [ ] When click on edit an item, admin should not have to re enter the product id.
 - [x] Admin should be able to stay signed in after logging in.
